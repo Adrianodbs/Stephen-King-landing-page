@@ -25,3 +25,19 @@
   font-size: 19px;
   font-weight: 300;
 }
+
+.apresentacao::after{
+  content: "|";
+  margin-left: 5px;
+  opacity: 1;
+  animation: piscar .7s infinite;
+}
+
+@keyframes piscar{
+  0%, 100%{
+    opacity: 1;
+  }
+  50%{
+    opacity: 0;
+  }
+}

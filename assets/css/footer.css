@@ -4,4 +4,5 @@ footer h3{
   left: 50%;
   transform: translateX(-50%);
   bottom: 15px;
+  font-weight: 300;
 }
