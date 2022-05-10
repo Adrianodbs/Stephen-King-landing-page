@@ -1,0 +1,7 @@
+footer h3{
+  position: absolute;
+  color: white;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 15px;
+}
