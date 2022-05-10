@@ -41,3 +41,21 @@
     opacity: 0;
   }
 }
+
+@media screen and (max-width:1024px){
+  .nome h3{
+    font-size: 26px;
+  }
+  .nome h1{
+    font-size: 100px;
+  }
+  .apresentacao{
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:768px){
+  .apresentacao{
+    width: 80%;
+  }
+}

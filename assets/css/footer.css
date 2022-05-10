@@ -6,3 +6,9 @@ footer h3{
   bottom: 15px;
   font-weight: 300;
 }
+
+@media screen and (max-width:1024px){
+  footer h3{
+    font-size: 16px;
+  }
+}
